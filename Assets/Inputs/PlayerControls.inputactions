@@ -6,7 +6,7 @@
             "id": "8abff9ef-a94b-4002-9cc5-935cc3faf235",
             "actions": [
                 {
-                    "name": "TouchPress",
+                    "name": "Tap",
                     "type": "Value",
                     "id": "1e89c460-92ee-4c40-b79e-2e2e30c9fe1e",
                     "expectedControlType": "",
@@ -33,7 +33,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "TouchHold",
+                    "name": "Drag",
                     "type": "Button",
                     "id": "f3fda6ac-6718-4933-92e9-2f57806160e4",
                     "expectedControlType": "",
@@ -47,10 +47,10 @@
                     "name": "",
                     "id": "87381362-28bb-421a-b684-72d9d439d558",
                     "path": "<Touchscreen>/primaryTouch",
-                    "interactions": "Tap,SlowTap",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "",
-                    "action": "TouchPress",
+                    "action": "Tap",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -80,10 +80,10 @@
                     "name": "",
                     "id": "65863f67-2bc2-46f6-a60b-9d5633795c76",
                     "path": "<Touchscreen>/Press",
-                    "interactions": "",
+                    "interactions": "Hold",
                     "processors": "",
                     "groups": "",
-                    "action": "TouchHold",
+                    "action": "Drag",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -12,8 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72a4bcaa051598245a673d5ae0b72eec, type: 3}
   m_Name: GameSettings
   m_EditorClassIdentifier: 
-  shapePrefabs: []
-  trailMaterial: {fileID: 0}
-  currentColor: {r: 1, g: 1, b: 1, a: 1}
-  currentShapeIndex: 0
+  shapePrefabs:
+  - {fileID: 2238772177191757360, guid: edd28c09004a42a4d91df5a7502b8b89, type: 3}
+  - {fileID: 7209108103277424669, guid: 3266a337bb4767148928b9dffa91359b, type: 3}
+  - {fileID: 1502433025826113972, guid: 746adb9777452d540bfc53128c34a0da, type: 3}
+  - {fileID: 4220086258726190990, guid: 8392c600098b0f94db56c09dea9fc08a, type: 3}
+  trailMaterial: {fileID: 2100000, guid: 4cdee4f9e1a426843b07888123824afd, type: 2}
+  currentColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  currentShapeIndex: 2
   swipeThreshold: 150
